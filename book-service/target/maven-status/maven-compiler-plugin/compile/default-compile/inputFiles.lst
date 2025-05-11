@@ -1,0 +1,9 @@
+C:\Users\zeine\Desktop\book-catalog-microservices\book-service\src\main\java\com\example\book\kafka\BookEventProducer.java
+C:\Users\zeine\Desktop\book-catalog-microservices\book-service\src\main\java\com\example\book\model\Book.java
+C:\Users\zeine\Desktop\book-catalog-microservices\book-service\src\main\java\com\example\book\repository\BookRepository.java
+C:\Users\zeine\Desktop\book-catalog-microservices\book-service\src\main\java\com\example\book\controller\BookController.java
+C:\Users\zeine\Desktop\book-catalog-microservices\book-service\src\main\java\com\example\book\client\UserClient.java
+C:\Users\zeine\Desktop\book-catalog-microservices\book-service\src\main\java\com\example\book\BookServiceApplication.java
+C:\Users\zeine\Desktop\book-catalog-microservices\book-service\src\main\java\com\example\book\client\UserDto.java
+C:\Users\zeine\Desktop\book-catalog-microservices\book-service\src\main\java\com\example\book\service\BookService.java
+C:\Users\zeine\Desktop\book-catalog-microservices\book-service\src\main\java\com\example\book\dto\BookEvent.java

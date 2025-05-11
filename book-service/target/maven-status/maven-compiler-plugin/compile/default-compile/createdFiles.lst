@@ -1,0 +1,5 @@
+com\example\book\controller\BookController.class
+com\example\book\dto\BookEvent$EventType.class
+com\example\book\dto\BookEvent.class
+com\example\book\model\Book.class
+com\example\book\client\UserDto.class

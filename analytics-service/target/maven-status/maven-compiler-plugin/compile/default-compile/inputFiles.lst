@@ -1,0 +1,9 @@
+C:\Users\zeine\Desktop\book-catalog-microservices\analytics-service\src\main\java\com\example\analytics\dto\Book.java
+C:\Users\zeine\Desktop\book-catalog-microservices\analytics-service\src\main\java\com\example\analytics\service\AnalyticsService.java
+C:\Users\zeine\Desktop\book-catalog-microservices\analytics-service\src\main\java\com\example\analytics\AnalyticsServiceApplication.java
+C:\Users\zeine\Desktop\book-catalog-microservices\analytics-service\src\main\java\com\example\analytics\dto\BookEvent.java
+C:\Users\zeine\Desktop\book-catalog-microservices\analytics-service\src\main\java\com\example\analytics\kafka\UserEventConsumer.java
+C:\Users\zeine\Desktop\book-catalog-microservices\analytics-service\src\main\java\com\example\analytics\dto\UserDto.java
+C:\Users\zeine\Desktop\book-catalog-microservices\analytics-service\src\main\java\com\example\analytics\dto\UserEvent.java
+C:\Users\zeine\Desktop\book-catalog-microservices\analytics-service\src\main\java\com\example\analytics\controller\AnalyticsController.java
+C:\Users\zeine\Desktop\book-catalog-microservices\analytics-service\src\main\java\com\example\analytics\kafka\BookEventConsumer.java
