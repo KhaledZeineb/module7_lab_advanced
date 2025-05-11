@@ -14,12 +14,17 @@ import java.util.List;
 @RequestMapping("/api/books")
 public class BookController {
 
+    @Value("${eureka.instance.instance-id:${random.uuid}}")
+    private String instanceId;
+
     @Autowired
     private BookService bookService;
 
     @GetMapping
     public ResponseEntity<List<Book>> getAllBooks() {
-        return ResponseEntity.ok(bookService.getAllBooks());
+        return ResponseEntity.ok()
+                .header("X-Instance-Id", instanceId)
+                .body(users);;
     }
 
     @GetMapping("/{id}")

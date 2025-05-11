@@ -15,12 +15,18 @@ import java.util.List;
 @RequestMapping("/api/users")
 public class UserController {
 
+    @Value("${eureka.instance.instance-id:${random.uuid}}")
+    private String instanceId;
+
     @Autowired
     private UserService userService;
 
     @GetMapping
-    public ResponseEntity<List<UserDto>> getAllUsers() {
-        return ResponseEntity.ok(userService.getAllUsers());
+    public ResponseEntity<List<User>> getAllUsers() {
+        List<User> users = userService.getAllUsers();
+        return ResponseEntity.ok()
+                .header("X-Instance-Id", instanceId)
+                .body(users);
     }
 
     @GetMapping("/{id}")
